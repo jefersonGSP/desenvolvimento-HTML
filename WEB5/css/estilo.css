@@ -1,0 +1,15 @@
+header {
+  background-color: #441199;
+  width: auto;
+  color: white;
+}
+article {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #cccccc;
+  width: auto;
+}
+footer {
+  width: auto;
+  background-color: #441199;
+  clear: both;
+}

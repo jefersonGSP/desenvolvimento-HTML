@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Operadores aritméticos e variáveis</title>
+  </head>
+  <body>
+	<section class="container">
+	
+	<h2>Operações com variáveis</h2>
+	<hr>
+	<p id="calculo"></p>
+		
+		<script>
+			var x, y; //declaração das variáveis
+			x = 5; //atribuição de valores para a variável
+			y = 12; //atribuição de valores para a variável
+			document.getElementById("calculo").innerHTML = x / y;		
+		</script>
+	<hr>
+	<h2>Montando expressões</h2>	
+	<p id="calculo2"></p>
+		<script>
+			var a, b, c;
+			a = 32;
+			b = 56;
+			c = 22;
+			document.getElementById("calculo2").innerHTML = (a + b) * c;		
+		</script>
+	<hr>
+	<h2>Texto com eventos</h2>
+	
+	<p id="calculo3" style="font-size:24px; color:#fcc;"></p>
+	
+	<script>
+		function escrever() {
+			var a;
+			a = "Ana Banana";
+			document.getElementById("calculo3").innerHTML = a;	
+		}	
+	</script>
+	
+		<input type="submit" onclick="escrever()" value="Clique aqui" class="btn">
+	<hr>
+	<h2>Expressões com eventos</h2>
+	
+	<p>A soma dos valores 120 + 45 é?</p>
+	<p id="calculo4" style="font-size:24px; color:#fcc;"></p>
+	
+	<script>
+		function somar() {
+			var a, b;
+			a = 120;
+			b = 45;
+			document.getElementById("calculo4").innerHTML = a + b;	
+		}	
+	</script>
+	
+		<input type="submit" onclick="somar()" value="Somar Valores" class="btn btn-warning">
+		
+	<hr>
+		<h2>Concatenação de dados</h2>
+		<div>Concatenação é a junção de dados que são declarados dentro de um programa</div>
+		
+		<p id="nome" style="font-size:24px; color:#fcc;"></p>
+		
+		<script>
+		var primeiroNome, ultimoNome;
+		primeiroNome = "Ana";
+		ultimoNome = "Banana";
+		document.getElementById("nome").innerHTML = primeiroNome + " " + ultimoNome;	
+		
+		</script>
+		
+		<p id="numero"></p>
+		<script>
+			var a, b, c;
+			a = 2;
+			b = 3.4;
+			c = 456.99;
+			document.getElementById("numero").innerHTML = a + " " + b + " " + c;		
+		</script>	
+	
+	
+	
+	
+	</section>
+    
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

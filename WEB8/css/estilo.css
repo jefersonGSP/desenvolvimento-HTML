@@ -1,0 +1,59 @@
+/*Layout de estrutura*/
+
+body {
+	background-color:#000;
+}
+
+aside {
+	background-color:#000;
+	color:#fff;
+	font-family: 'Ranchers', cursive;
+	font-size:42px;
+	width:20%;
+	height:850px;
+	float:left;
+}
+
+.centro {
+	background-image:url(../img/uchiha_itachi2.jpg);
+	width:20%;
+	height:850px;
+	float:left;
+}
+
+.barra {
+	width:60%;
+	float:right;
+}
+
+article {
+	background-color:#fff;
+	color:#000;
+	width:60%;
+	height:auto;
+	float:right;
+}
+
+.texto {
+	margin-top:240%;
+}
+
+.titulo {
+	font-size:32px;
+	font-family: 'Ranchers', cursive;
+	color:#8B0000;
+	padding:2%;
+}
+
+.colunas {
+	padding:2%;
+	text-align:justify;
+	font-size:12px;
+}
+
+
+
+
+
+	
+	

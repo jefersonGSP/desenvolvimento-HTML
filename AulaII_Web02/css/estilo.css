@@ -1,0 +1,51 @@
+/*comentários CSS*/
+
+/*seletor de tag - recebe o nome da tag*/
+section
+{
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	background-color:#9400D3;
+	font-family:Arial, Verdana, San serif;
+	font-size:24px;
+	height:200px;
+	width:100%;
+		
+}
+
+nav {
+	background-color:#9932CC;
+	width:100%;
+	height:50px;
+	
+}
+
+aside {
+	background-color:#BA55D3;
+	width:30%;
+	float:left;
+	height:350px;
+	
+}
+
+article {
+	background-color:#fff;
+	color:#000;
+	width:70%;
+	float:right;
+	height:350px;	
+}
+
+footer {
+	background-color:#9932CC;
+	width:100%;
+	height:50px;
+	clear:both;
+}
+	
+	
+	
+	

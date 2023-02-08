@@ -1,0 +1,69 @@
+/*estrutura de html + elementos*/
+body {
+  font: 1em/150% arial, Helvetica, sans-serif;
+}
+h1 {
+  font: bold 36px/100% arial, Helvetica, sans-serif;
+}
+.texto {
+  padding: 2%;
+}
+header {
+  height: 180px;
+  background-color: #0099cc;
+}
+article {
+  width: 660px;
+  background-color: #0066cc;
+  float: left;
+}
+aside {
+  width: 660px;
+  float: right;
+}
+footer {
+  clear: both;
+  background-color: #ffcc33;
+}
+header,
+article,
+aside {
+  margin-bottom: 5px;
+}
+header,
+article,
+aside,
+footer {
+  border: solid 1px #ccc;
+}
+/*codificação da responsabilidade*/
+/*media querie*/
+@media screen and (max-width: 980px) {
+  article {
+    width: 65%;
+  }
+  aside {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  article {
+    width: auto;
+    float: none;
+  }
+  aside {
+    width: auto;
+    float: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  article {
+    height: auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  aside {
+    display: none;
+  }
+}

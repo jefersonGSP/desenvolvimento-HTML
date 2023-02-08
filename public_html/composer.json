@@ -1,0 +1,7 @@
+{
+    "name": "composer/shop_rataria",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}

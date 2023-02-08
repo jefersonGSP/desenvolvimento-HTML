@@ -1,0 +1,91 @@
+/*Seletores de tag*/
+section {
+  width: 95%;
+  margin: auto;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 14px;
+}
+
+header {
+  background: #ff4500;
+  width: 100%;
+  height: 250px;
+  font-family: "Grandstander", cursive;
+  text-align: center;
+}
+
+nav {
+  background: #ff8c00;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+article {
+  background: #fff;
+  color: #000;
+  width: 100%;
+  height: 350px;
+}
+
+footer {
+  background: #ff8c00;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  clear: both;
+}
+
+/*Seletor de classe*/
+.titulo {
+  font-size: 72px;
+  font-weight: bold;
+  padding-top: 7.2%;
+}
+
+/*seletor composto*/
+/*seletor de classe junto com 1 seletor de tag*/
+/*estado do menu quando a página carregar*/
+.menu a {
+  background: #f00;
+  padding: 0.4%;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border: 1px solid #32cd32;
+}
+
+/*estado do menu quando o mouse passar sobre*/
+/*a palavra "hover" significa qdo o mouse passa sobre o elemento*/
+.menu a:hover {
+  background: #800;
+  border: 1px solid #006400;
+}
+
+/*Seletor de classe para o alinhamento do menu*/
+.alinhar {
+  padding-top: 1.3%;
+}
+
+.tabela {
+  background: #008000;
+  width: 80%;
+  border-radius: 4px;
+  color: #fff;
+}
+
+/*seletor de tag "th" - para tabelas - table head*/
+th {
+  background-color: #800000;
+}
+
+.conteudo {
+  padding: 2%;
+  width: 95%;
+}

@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  font-family: "Montserrat", Arial, Verdana, Sans-serif;
+}
+
+nav {
+  width: 70%;
+  float: right;
+}
+
+article {
+  width: 70%;
+  height: 100%;
+  background-color: wheat;
+  text-align: justify;
+  font-family: Arial, Verdana, Sans-serif;
+  float: right;
+}
+aside {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 1%;
+  padding: 1%;
+  width: 30%;
+  height: 998px;
+  background-color: white;
+  float: left top;
+}
+footer {
+  width: 100%;
+  background-color: #1c1c1c;
+  clear: both;
+}
+h5 {
+  margin-top: 20px;
+}
+
+.row {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.aside {
+  text-align: left;
+  padding: 3%;
+}
